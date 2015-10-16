@@ -1,0 +1,23 @@
+.synopsis {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+heading {
+	font-size: 18pt;
+	}
+
+.sub-section, .actual {
+	float:none;
+	width: 100%;
+}
+
+section {
+	height: 100vh;
+}
+
+#socmed {
+	min-height: 100hv;
+	height: auto;
+}
