@@ -17,7 +17,25 @@ section {
 	height: 100vh;
 }
 
+#welcome {
+	background-image: none;
+}
+
 #socmed {
 	min-height: 100hv;
 	height: auto;
+	padding: 15% 0;
+	background-image: none;
+}
+
+#contact {
+	background-image: none;
+}
+
+#photography {
+	background-image: none;
+}
+
+#writtings {
+	background-image: none;
 }

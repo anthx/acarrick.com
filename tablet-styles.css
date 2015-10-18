@@ -16,4 +16,22 @@ heading {
 #socmed {
 	min-height: 100hv;
 	height: auto;
+	padding: 15% 0;
+	background-image: url(socmed_tablet.jpg);
+}
+
+#contact {
+	background-image: url(contact_tablet.jpg);
+}
+
+#writtings {
+	background-image: url(writting_tablet.jpg);
+}
+
+#photography {
+	background-image: url(photography_tablet.jpg);
+}
+
+#welcome {
+	background-image: url(welcome_tablet.jpg);
 }
