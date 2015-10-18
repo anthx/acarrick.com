@@ -9,7 +9,7 @@ heading {
 	}
 
 .sub-section, .actual {
-	float:none;
+	/*float:none;*/
 	width: 100%;
 }
 
