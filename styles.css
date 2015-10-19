@@ -90,7 +90,7 @@ a:link {
 	float: left;
 }
 
-#Anthony .synopsis, #contact .synopsis {
+#welcome .synopsis, #contact .synopsis {
 	float: none;
 	text-align: center;
 	width: auto;
