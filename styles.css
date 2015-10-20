@@ -8,6 +8,35 @@ body {
 	font-family: Arial, Futura, Helvetica, sans-serif;
 }
 
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	opacity: 0.85;
+	width: 100%;
+	display: table;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.menuCell {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+#menu a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px;
+	color: black;
+}
+
+#menu a:hover {
+	background-color: black;
+	color: white;
+}
+
 #content {
 	overflow-y: auto;
 	overflow-x:hidden;
