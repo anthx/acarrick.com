@@ -1,0 +1,21 @@
+@import url('mobile-styles.css');
+
+#socmed {
+	background-image: url(socmed_phone.jpg);
+}
+
+#contact {
+	background-image: url(contact_phone.jpg);
+}
+
+#writtings {
+	background-image: url(writting_phone.jpg);
+}
+
+#photography {
+	background-image: url(photography_phone.jpg);
+}
+
+#welcome {
+	background-image: url(welcome_phone.jpg);
+}

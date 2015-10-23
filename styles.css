@@ -1,11 +1,17 @@
 body, html {
 	/*overflow: hidden;*/
+	scroll-behavior: smooth;
 }
 
 body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Futura, Helvetica, sans-serif;
+}
+
+p {
+	padding-left: 15pt;
+	padding-right: 15pt;
 }
 
 #menu {
@@ -37,6 +43,14 @@ body {
 	color: white;
 }
 
+#menu .full {
+	display: inline-block;
+}
+
+#menu .mobile {
+	display: none;
+}
+
 #content {
 	overflow-y: auto;
 	overflow-x:hidden;
@@ -59,7 +73,7 @@ section {
 	background-image: url(socmed.jpg);
 }
 
-#writtings {
+#writings {
 	background-color: #d3c77a;
 	background-image: url(writting.jpg);
 }
@@ -80,6 +94,11 @@ section {
 	height: 100%;
 }
 
+.box {
+	background-color: rgba(255,255,255,0.85);
+	box-shadow: 0 0 10px rgba(255,255,255,0.7);
+}
+
 .content {
 	display: table-cell;
 	text-align: center;
@@ -91,14 +110,17 @@ section {
 heading {
 	font-size: 30pt; 
 	display: block;
+	padding: 10pt 10pt 10pt 5pt;
 }
 
-.synopsis, .actual, .content > heading {
+/*
+#socmed .synopsis, #socmed .actual, #socmed .content > heading {
 	
 	background-color: rgba(255,255,255,0.7);
 	box-shadow: 0 0 10px rgba(255,255,255,0.7);
 	z-index: 1;
-}
+}*/
+
 
 a:link {
 	color: #2131ff;
@@ -112,9 +134,9 @@ a:link {
 	
 }
 .synopsis {
-	width: 340px;
+	width: 50%;
 	text-align: left;
-	padding: 0 15pt 0 15pt;
+	/*padding: 0 15pt 0 15pt;*/
 	display: inline-block;
 	float: left;
 }
@@ -131,7 +153,7 @@ a:link {
 }
 
 .actual {
-	float: right;
-	display: inline;
+	/*float: right;*/
+	display: inline-block;
 	width: 500px;
 }

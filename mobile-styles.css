@@ -7,6 +7,30 @@
 heading {
 	font-size: 18pt;
 	}
+	
+#menu a {
+	font-size: x-large;
+	padding: 12px;
+	color: black;
+}
+
+#menu {
+	opacity: 1;
+}
+
+#menu .mobile {
+	display: inline-block;
+}
+
+#menu .full {
+	display: none;
+}
+
+.spacer {
+	height: 45px;
+	width: 100%;
+}
+
 
 .sub-section, .actual {
 	/*float:none;*/
@@ -14,7 +38,15 @@ heading {
 }
 
 section {
-	height: 100vh;
+	/*height: 100vh;*/
+}
+
+section {
+	/*min-height: 100%;*/
+	height: auto;
+	padding: 15% 0;
+	width: auto;
+	padding: 
 }
 
 #welcome {
@@ -36,6 +68,6 @@ section {
 	background-image: none;
 }
 
-#writtings {
+#writings {
 	background-image: none;
 }
