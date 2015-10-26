@@ -107,10 +107,11 @@ section {
 	padding: 0 15% 0 15%;
 }
 
-heading {
+heading  {
 	font-size: 30pt; 
 	display: block;
-	padding: 10pt 10pt 10pt 5pt;
+	padding: 10pt 10pt 0pt 10pt;
+	margin-bottom: 0;
 }
 
 /*
@@ -130,7 +131,7 @@ a:link {
 }
 .actual heading {
 	font-size: 15pt;
-	margin-top: 10pt; 
+	/*margin-top: 10pt;*/ 
 	
 }
 .synopsis {
