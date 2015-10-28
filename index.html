@@ -9,7 +9,39 @@
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 1270px)" href="tablet-styles.css" />
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="phone-styles.css" />
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="mobile-styles.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop : target.offset().top
+							}, 1000);
+							return false;
+						}
+					}
+				});
+			});
+			//credit to http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+		</script>
+		<script>
+			$(function() {
+				$('#imageMode').click(function() {
+					if (!$('.content').is(":hidden")) {
+						$('.content').hide();
+						$('#imageMode').text("Show Content");
+					}
+					else {
+						$('.content').show();
+						$('#imageMode').text("Hide Content");
+					}
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div id="menu">
@@ -20,7 +52,7 @@
 				<a href="#socmed" class="full">Social Media</a><a href="#socmed" class="mobile">&#9996;</a>
 			</div>
 			<div class="menuCell">
-				<a href="#writings" class="full">Writings</a><a href="#writing" class="mobile">&#x270d;</a>
+				<a href="#writings" class="full">Writings</a><a href="#writings" class="mobile">&#x270d;</a>
 			</div>
 			<div class="menuCell">
 				<a href="#photography" class="full">Photography</a><a href="#photography" class="mobile">&#128247;</a>
@@ -29,6 +61,7 @@
 				<a href="#contact" class="full">Contact Me</a><a href="#contact" class="mobile">&#x2709;</a>
 			</div>
 		</div>
+		<a id="imageMode">Hide Content</a>
 		<div class="spacer"></div>
 		<div id="content">
 			<section id="welcome">
@@ -74,7 +107,7 @@
 						<div class="box">
 							<heading> Writing </heading>
 							<div class="synopsis">
-								<p>I am interested in writting and language. To that end I have a couple of blogs - a kimchi and Korean food blog, and a technology blog. Also, are other places I contribute to. </p>
+								<p>I am interested in writting and language. To that end I have a couple of blogs - a kimchi and Korean food blog, and a technology blog. I also contribute to other places on the web.</p>
 							</div>
 							<div class="actual">
 								<div class="sub-section">
@@ -86,7 +119,7 @@
 									<heading>Weekend Notes</heading>
 									<p>I also write articles for the Australian run leisure magazine Weekend Notes.</p>
 									<p>I write about food and entertainment venues, leisure activity ideas, and locations.</p>
-									<p><a href="http://www.weekendnotes.com/profile/598410/" rel="nofollow">My Articles on Weekend Notes</a> </p>
+									<p><a href="http://www.weekendnotes.com/profile/598410/" rel="nofollow">My Articles on Weekend Notes</a></p>
 								</div>
 							</div>
 						</div>

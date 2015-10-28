@@ -49,6 +49,10 @@ section {
 	padding: 
 }
 
+#imageMode {
+	display: none;
+}
+
 #welcome {
 	background-image: none;
 }

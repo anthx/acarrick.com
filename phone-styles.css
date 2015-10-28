@@ -8,7 +8,7 @@
 	background-image: url(contact_phone.jpg);
 }
 
-#writtings {
+#writings {
 	background-image: url(writting_phone.jpg);
 }
 
@@ -18,4 +18,9 @@
 
 #welcome {
 	background-image: url(welcome_phone.jpg);
+}
+
+#imageMode {
+	display:inherit;
+	font-size: smaller;
 }
