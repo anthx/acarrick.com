@@ -34,10 +34,15 @@
 					if (!$('.content').is(":hidden")) {
 						$('.content').hide();
 						$('#imageMode').text("Show Content");
+						$('.long').height('100vh');
+						$('.long').css({padding: '0'});
 					}
 					else {
 						$('.content').show();
 						$('#imageMode').text("Hide Content");
+						$('.long').height('auto');
+						$('.long').css({padding: '15% 0'});
+						
 					}
 				});
 			});
@@ -77,7 +82,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="socmed">
+			<section id="socmed" class="long">
 				<div class="inner">
 					<div class="content">
 						<div class="box">
@@ -101,7 +106,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="writings">
+			<section id="writings" class="long">
 				<div class="inner">
 					<div class="content">
 						<div class="box">
