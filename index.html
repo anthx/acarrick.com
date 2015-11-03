@@ -31,18 +31,18 @@
 		<script>
 			$(function() {
 				$('#imageMode').click(function() {
-					if (!$('.content').is(":hidden")) {
-						$('.content').hide();
-						$('#imageMode').text("Show Content");
-						$('.long').height('100vh');
-						$('.long').css({padding: '0'});
-					}
-					else {
-						$('.content').show();
+					if ($('.box').css('opacity') == '0') {
+						$('.box').css({
+							opacity : '1'
+						});
 						$('#imageMode').text("Hide Content");
-						$('.long').height('auto');
-						$('.long').css({padding: '15% 0'});
-						
+					} else {//opacity is 1, let's make it 0
+						//$('.long').css({padding: '15% 0'});
+						$('.box').css({
+							opacity : '0'
+						});
+						$('#imageMode').text("Show Content");
+
 					}
 				});
 			});
