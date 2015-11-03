@@ -19,7 +19,7 @@
 }
 
 #imageMode {
-	display:inherit;
+	display: inherit;
 	font-size: smaller;
 }
 
@@ -32,21 +32,22 @@ section {
 
 @media screen and (max-width: 650px) {
 	#menu a {
-	font-size: x-large;
-	padding: 12px;
-	color: black;
-	width: 100%;
-}
+		font-size: x-large;
+		padding: 12px;
+		color: black;
+		width: 100%;
+	}
 
-#menu {
-	opacity: 1;
-}
+	#menu {
+		opacity: 1;
+	}
 
-#menu .mobile {
-	display: inline-block;
-}
+	#menu .mobile {
+		display: inline-block;
+	}
 
-#menu .full {
-	display: none;
-}
+	#menu .full {
+		display: none;
+	}
+
 }
