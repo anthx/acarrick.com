@@ -38,9 +38,11 @@ section {
 		width: 100%;
 	}
 
+	/*
 	#menu {
-		opacity: 1;
-	}
+			opacity: 1;
+		}*/
+	
 
 	#menu .mobile {
 		display: inline-block;
