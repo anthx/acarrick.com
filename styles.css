@@ -135,6 +135,12 @@ heading {
 a:link {
 	color: #2131ff;
 }
+
+a:hover {
+	text-decoration: none;
+}
+
+
 .actual {
 
 }
