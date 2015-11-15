@@ -18,7 +18,7 @@
 	background-image: url(welcome_phone.jpg);
 }
 
-#imageMode {
+.extrasLinks {
 	display: inherit;
 	font-size: smaller;
 }
