@@ -51,15 +51,27 @@ p {
 	display: none;
 }
 
-#imageMode {
+.extrasLinks {
 	position: fixed;
 	bottom: 20px;
-	left: 20px;
 	text-decoration: none;
 	color: silver;
 	cursor: pointer;
 	max-width: 12%;
 }
+
+.extrasLinks:hover {
+	text-decoration: underline;
+}
+
+#imageMode {
+	left: 20px;
+}
+
+#photosPageLink {
+	right: 20px;
+}
+
 #content {
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -149,6 +161,12 @@ a:hover {
 	/*margin-top: 10pt;*/
 
 }
+
+.only-synopsis heading {
+	font-size: 22pt;
+	/*margin-top: 10pt;*/
+
+}
 .synopsis {
 	width: 40%;
 	text-align: left;
@@ -157,10 +175,11 @@ a:hover {
 	float: left;
 }
 
-#welcome .synopsis, #contact .synopsis {
+#welcome .synopsis, #contact .synopsis, .only-synopsis {
 	float: none;
 	text-align: center;
 	width: auto;
+	display: inline-block;
 }
 .sub-section {
 	display: block;
