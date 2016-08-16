@@ -31,6 +31,10 @@ p {
 	text-align: center;
 	vertical-align: middle;
 }
+
+/*a:link {
+	color: #2131ff;
+}*/
 #menu a {
 	display: inline-block;
 	text-decoration: none;
@@ -61,12 +65,12 @@ p {
 	font-size: larger;
 }
 
-.extrasLinks:hover {
-	text-decoration: underline;
-}
-
 .extrasLinks:visited {
 	color: orange;
+}
+
+.extrasLinks:hover {
+	text-decoration: underline;
 }
 
 #imageMode {
@@ -150,9 +154,7 @@ heading {
  z-index: 1;
  }*/
 
-a:link {
-	color: #2131ff;
-}
+
 
 a:hover {
 	text-decoration: none;
