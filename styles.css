@@ -55,13 +55,18 @@ p {
 	position: fixed;
 	bottom: 20px;
 	text-decoration: none;
-	color: silver;
+	color: orange;
 	cursor: pointer;
 	max-width: 12%;
+	font-size: larger;
 }
 
 .extrasLinks:hover {
 	text-decoration: underline;
+}
+
+.extrasLinks:visited {
+	color: orange;
 }
 
 #imageMode {
