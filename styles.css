@@ -154,7 +154,31 @@ heading {
  z-index: 1;
  }*/
 
+logo {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    display: block;
+    background-position: center;
+    margin-top: 10pt;
+}
 
+.blogger {
+    background-image: url(logos/blogger.svg)
+}
+
+.wen {
+    background-image: url(logos/Weekend_Notes.gif)
+}
+
+.instagram {
+    background-image: url(logos/Instagram_logo.svg)
+}
+
+.flickr {
+    background-image: url(logos/flickr.png);
+}
 
 a:hover {
 	text-decoration: none;
