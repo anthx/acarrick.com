@@ -13,6 +13,12 @@ heading {
 	width: 100%;
 }
 
+.extra_long {
+	height: auto;
+	padding-bottom: 30pt;
+	padding-top: 30pt;
+}
+
 #socmed {
 	background-image: url(socmed_tablet.jpg);
 }

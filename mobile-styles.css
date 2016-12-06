@@ -6,7 +6,12 @@
 
 heading {
 	font-size: 18pt;
-	}
+	font-weight: bold;
+}
+
+.actual heading {
+	font-weight: normal;
+}	
 	
 #menu a {
 	font-size: x-large;

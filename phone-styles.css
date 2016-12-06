@@ -18,6 +18,14 @@
 	background-image: url(welcome_phone.jpg);
 }
 
+.long {
+	padding-top: 50pt;
+	padding-bottom: 50pt;
+}
+
+.extra_long {
+	height: auto;
+}
 .extrasLinks {
 	display: inherit;
 	font-size: smaller;

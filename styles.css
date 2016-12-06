@@ -126,7 +126,7 @@ section {
 }
 
 .box {
-	background-color: rgba(255,255,255,0.85);
+	background-color: rgba(255,255,255,0.95);
 	box-shadow: 0 0 10px rgba(255,255,255,0.7);
 	transition: opacity .5s ease-in-out;
 }
@@ -180,6 +180,18 @@ logo {
     background-image: url(logos/flickr.png);
 }
 
+.redbubble {
+	background-image: url(logos/RedBubble_symbol.svg)
+}
+
+.googleplus {
+	background-image: url(logos/gplus-64.png)
+}
+
+.twitter {
+	background-image: url(logos/Twitter_Logo_Blue.svg)
+}
+
 a:hover {
 	text-decoration: none;
 }
@@ -205,6 +217,7 @@ a:hover {
 	/*padding: 0 15pt 0 15pt;*/
 	display: inline-block;
 	float: left;
+	font-size: larger;
 }
 
 #welcome .synopsis, #contact .synopsis, .only-synopsis {
