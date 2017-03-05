@@ -38,6 +38,10 @@ section {
 	background-position: center center;
 }
 
+.synopsis {
+	font-size: inherit;
+}
+
 @media screen and (max-width: 650px) {
 	#menu a {
 		font-size: x-large;
