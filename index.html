@@ -1,53 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="generator" content="Google Web Designer 1.0.0.924">
     <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#551A8B">
     <title>Anthony Carrick</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1270px)" href="tablet-styles.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="phone-styles.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="mobile-styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-        //credit to http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
-    </script>
-    <script>
-        $(function() {
-            $('#imageMode').click(function() {
-                if ($('.box').css('opacity') == '0') {
-                    $('.box').css({
-                        opacity: '1'
-                    });
-                    $('#imageMode').text("Hide Content");
-                } else { //opacity is 1, let's make it 0
-                    //$('.long').css({padding: '15% 0'});
-                    $('.box').css({
-                        opacity: '0'
-                    });
-                    $('#imageMode').text("Show Content");
-
-                }
-            });
-        });
-    </script>
+    <link rel="stylesheet" type="text/css" media="(max-width: 1270px)" href="tablet-styles.css" />
+    <link rel="stylesheet" type="text/css" media="(max-width: 900px)" href="phone-styles.css" />
+    <link rel="stylesheet" type="text/css" media="(max-width: 500px)" href="mobile-styles.css" />
 </head>
 
 <body>
@@ -104,20 +67,20 @@
                                 <heading>Technology Projects</heading>
                                 <logo class=""></logo>
                                 <p>Here I discuss and show my university projects and I will document the progress of any new and ongoing projects.</p>
-                                <p><a href="http://www.acarrick.com/projects" target="_blank">Anthony Carrick's Technology Projects</a></p>
+                                <p><a href="http://www.acarrick.com/projects" target="_blank" rel="noopener">Anthony Carrick's Technology Projects</a></p>
                             </div>
                             <div class="sub-section">
                                 <heading> Multimedia Design Portfolio </heading>
                                 <p>My original undergraduate degree was a Bachelor of Multimedia Desgin also from the University of Queensland. I made a portfolio to showcase my graphic design and multimedia projects. I have kept it updated over the years
                                     with a few recent additions. Now, I'm mostly keeping it as an archive for interest.</p>
-                                <p><a href="http://www.acarrick.com/portfolio" target="_blank">My Multimedia Design portfolio</a></p>
+                                <p><a href="http://www.acarrick.com/portfolio" target="_blank" rel="noopener">My Multimedia Design portfolio</a></p>
                             </div>
                             <div class="sub-section">
                                 <heading> Github Code Projects </heading>
                                 <logo class="github"></logo>
                                 <p>I'm using Github as my Git repository hosting platform for open source projects.</p>
-                                <p>Some projects I have include a <a href="https://github.com/anthx/chat-log-viewer">Chat Log Parser</a> for Viber and Facebook written in Python, this website, plus my <a href="https://www.acarrick.com/projects/unicode-character-stripper/">Unicode Character Stripper</a></p>
-                                <p><a href="https://www.github.com/anthx" target="_blank">My coding projects on Github</a></p>
+                                <p>Some projects I have include a <a href="https://github.com/anthx/chat-log-viewer" rel="noopener">Chat Log Parser</a> for Viber and Facebook written in Python, this website, plus my <a href="https://www.acarrick.com/projects/unicode-character-stripper/" rel="noopener">Unicode Character Stripper</a></p>
+                                <p><a href="https://www.github.com/anthx" target="_blank" rel="noopener">My coding projects on Github</a></p>
                             </div>
                         </div>
                     </div>
@@ -136,15 +99,15 @@
                             <div class="sub-section">
                                 <heading> Personal Blogs</heading>
                                 <logo class="blogger"></logo>
-                                <p><a href="http://www.kimchiadventures.com" target="_blank">Adventures in Kimchi</a> &mdash; my Korean food blog. </p>
-                                <p><a href="http://www.atechwitness.blogspot.com" target="_blank">A Tech Witness</a> &mdash; my personal technology blog. </p>
+                                <p><a href="http://www.kimchiadventures.com" target="_blank" rel="noopener">Adventures in Kimchi</a> &mdash; my Korean food blog. </p>
+                                <p><a href="http://www.atechwitness.blogspot.com" target="_blank" rel="noopener">A Tech Witness</a> &mdash; my personal technology blog. </p>
                             </div>
                             <div class="sub-section">
                                 <heading>Weekend Notes</heading>
                                 <logo class="wen"></logo>
                                 <p>I also write articles for the Australian run leisure magazine Weekend Notes.</p>
                                 <p>I write about food and entertainment venues, leisure activity ideas, and locations.</p>
-                                <p><a href="http://www.weekendnotes.com/profile/anthony-carrick/" rel="nofollow" target="_blank">My Articles on Weekend Notes</a></p>
+                                <p><a href="http://www.weekendnotes.com/profile/anthony-carrick/" target="_blank" rel="noopener">My Articles on Weekend Notes</a></p>
                             </div>
                         </div>
                     </div>
@@ -163,25 +126,25 @@
                             <div class="sub-section">
                                 <heading>Flickr</heading>
                                 <logo class="flickr"></logo>
-                                <p>My best photos are on <a href="https://www.flickr.com/photos/135725457@N03/" target="_blank">Flickr</a>. </p>
-                                <p>I also try to geotag my photos where possible so the <a href="https://www.flickr.com/photos/135725457@N03/map" target="_blank">map view</a> will display many of them.</p>
+                                <p>My best photos are on <a href="https://www.flickr.com/photos/135725457@N03/" target="_blank" rel="noopener">Flickr</a>. </p>
+                                <p>I also try to geotag my photos where possible so the <a href="https://www.flickr.com/photos/135725457@N03/map" target="_blank" rel="noopener">map view</a> will display many of them.</p>
                             </div>
 
                             <div class="sub-section">
                                 <heading>A Photo Story</heading>
-                                <p>I have a weekly photo blog written in Hugo and Markdown over at <a href="http://aphotostory.acarrick.com" target="_blank">A Photo Story</a>.</p>
+                                <p>I have a weekly photo blog written in Hugo and Markdown over at <a href="http://aphotostory.acarrick.com" target="_blank" rel="noopener">A Photo Story</a>.</p>
                                 <p>My aim is to document my photography while gaining writing practice, experience in Markdown and static website generators.</p>
                             </div>
                             <div class="sub-section">
                                 <heading>Instagram</heading>
                                 <logo class="instagram"></logo>
-                                <p>I try to post my more professional type photos on <a href="https://www.instagram.com/anthonycarrick/" target="_blank">@anthonycarrick</a>.</p>
+                                <p>I try to post my more professional type photos on <a href="https://www.instagram.com/anthonycarrick/" target="_blank" rel="noopener">@anthonycarrick</a>.</p>
                                 <p>I will also post on this Instagram account when I have a new Weekend Notes article available.</p>
                             </div>
                             <div class="sub-section">
                                 <heading>Redbubble</heading>
                                 <logo class="redbubble"></logo>
-                                <p>You can purchase some of my photos in various products over at <a href="http://www.redbubble.com/people/anthx" target="_blank">my store on Redbubble</a>. </p>
+                                <p>You can purchase some of my photos in various products over at <a href="http://www.redbubble.com/people/anthx" target="_blank" rel="noopener">my store on Redbubble</a>. </p>
                                 <p>I like to choose the appropriate product for the photos, so some are available in more formats and products than others.</p>
                             </div>
                         </div>
@@ -205,13 +168,51 @@
                                 </script>
                                 <noscript><img src="email.png" style="display: inline-block; vertical-align: middle;">.</noscript></p>
                             <p> I would be interested in collaborating on technology projects, and am interested in further career opportunities in IT support, programming, and software testing. </p>
-                            <p>My <a href="https://www.linkedin.com/in/anthony-carrick-05636716/">LinkedIn</a></p>
+                            <p>My <a href="https://www.linkedin.com/in/anthony-carrick-05636716/" target="_blank" rel="noopener">LinkedIn</a></p>
                         </div>
                     </div>
                 </div>
         </section>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" async></script>
+    <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+        //credit to http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+    </script>
+    <script>
+        $(function() {
+            $('#imageMode').click(function() {
+                if ($('.box').css('opacity') == '0') {
+                    $('.box').css({
+                        opacity: '1'
+                    });
+                    $('#imageMode').text("Hide Content");
+                } else { //opacity is 1, let's make it 0
+                    //$('.long').css({padding: '15% 0'});
+                    $('.box').css({
+                        opacity: '0'
+                    });
+                    $('#imageMode').text("Show Content");
+
+                }
+            });
+        });
+    </script>
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
         var sc_project = 10693729;
