@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="generator" content="Google Web Designer 1.0.0.924">
@@ -39,7 +39,7 @@
 							<div class="only-synopsis">
 								<heading>City of Lights - Laser show at Brisbane Festival</heading>
 								<p>I took this photo during Brisbane Festival 2012. It's of the Santos GLNG City of Lights, taken from the South Bank side of the river, facing the city.</p>
-								<p>It is a 1 second exposure at F8.0 - I have adjusted the contrast and blacks to deepen the blacks and reduce the ambient light. I like the silhouetted people at the front. (You can see it easier on <a target="_blank" href="https://www.flickr.com/photos/135725457@N03/22603342809/">Flickr</a>.) </p>
+								<p>It is a 1 second exposure at F8.0 - I have adjusted the contrast and blacks to deepen the blacks and reduce the ambient light. I like the silhouetted people at the front. (You can see it easier on <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/135725457@N03/22603342809/">Flickr</a>.) </p>
 							</div>
 						</div>
 					</div>
@@ -106,26 +106,29 @@
 			</section>
 		</div>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" async></script>
+		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script>
-			$(function() {
-				$('a[href*=#]:not([href=#])').click(function() {
-					if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			window.onload = function () {
+				$(function() {
+					$('a[href*=#]:not([href=#])').click(function() {
+						if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
-						var target = $(this.hash);
-						target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-						if (target.length) {
-							$('html,body').animate({
-								scrollTop : target.offset().top
-							}, 1000);
-							return false;
+							var target = $(this.hash);
+							target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+							if (target.length) {
+								$('html,body').animate({
+									scrollTop : target.offset().top
+								}, 1000);
+								return false;
+							}
 						}
-					}
+					});
 				});
-			});
+			};
 			//credit to http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
 		</script>
 		<script>
+			window.onload = function () {
 			$(function() {
 				$('#imageMode').click(function() {
 					if ($('.box').css('opacity') == '0') {
@@ -143,6 +146,7 @@
 					}
 				});
 			});
+		};
 		</script>
 		<!-- Start of StatCounter Code for Default Guide -->
 		<script type="text/javascript">

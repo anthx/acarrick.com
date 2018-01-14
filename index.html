@@ -175,26 +175,29 @@
         </section>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
     <script>
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        window.onload = function () {
+            $(function() {
+                $('a[href*=#]:not([href=#])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
                     }
-                }
+                });
             });
-        });
+        };
         //credit to http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
     </script>
     <script>
+    window.onload = function () {
         $(function() {
             $('#imageMode').click(function() {
                 if ($('.box').css('opacity') == '0') {
@@ -212,6 +215,7 @@
                 }
             });
         });
+    };
     </script>
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
