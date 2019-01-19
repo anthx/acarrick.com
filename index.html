@@ -42,7 +42,7 @@
                         <div class="synopsis">
                             <heading> Who am I? </heading>
                             <p>I am Anthony Carrick - I am interested in technology, writing, and photography. </p>
-                            <p>I have a Bachelor of Multimedia Design from the University of Queensland and recently completed a Graduate Certificate in Information Technology, also from the University of Queensland, to further my IT knowledge and career.
+                            <p>I have a Bachelor of Multimedia Design from the University of Queensland and recently completed a Graduate Diploma in Information Technology, also from the University of Queensland, to further my IT knowledge and career.
                             </p>
                             <p>I've set up this page to act as a "portal" to my various activities around the web and to showcase my skills and interests. I used some of favourite photos I've taken as backgrounds to each section. You can see a story of each
                                 photo at the "About The Photos" link in the bottom right corner.</p>
@@ -57,15 +57,15 @@
                     <div class="box">
                         <heading>Technology Projects</heading>
                         <div class="synopsis">
-                            <p>I have recently completed further qualifications in Information Technology from the University of Queensland. There, I learnt software development in Python and C# as well as database theory, use and development in MySQL and
-                                Oracle.
+                            <p>I have recently completed further qualifications in Information Technology from the University of Queensland. There, I learnt software and web development in Python, Java, PHP and C#, as well as database theory, use and development
+                                in MySQL and Oracle. I also studied computer networking, information security, and algorthims and data structures.
                             </p>
-                            <p>Of course, I've always been interested in IT anyway, and technology generally, hence this website and my technoloy blog. </p>
+                            <p>Of course, I've always been interested in IT anyway, and technology generally, hence this website and my technoloy blog, <a href="http://www.atechwitness.blogspot.com" target="_blank" rel="noopener">A Tech Witness</a>. </p>
                         </div>
                         <div class="actual">
                             <div class="sub-section">
                                 <heading>Technology Projects</heading>
-                                <logo class=""></logo>
+                                <logo class="projects-blog"></logo>
                                 <p>Here I discuss and show my university projects and I will document the progress of any new and ongoing projects.</p>
                                 <p><a href="http://www.acarrick.com/projects" target="_blank" rel="noopener">Anthony Carrick's Technology Projects</a></p>
                             </div>
@@ -79,7 +79,8 @@
                                 <heading> Github Code Projects </heading>
                                 <logo class="github"></logo>
                                 <p>I'm using Github as my Git repository hosting platform for open source projects.</p>
-                                <p>Some projects I have include a <a href="https://github.com/anthx/chat-log-viewer" rel="noopener">Chat Log Parser</a> for Viber and Facebook written in Python, this website, plus my <a href="https://www.acarrick.com/projects/unicode-character-stripper/" rel="noopener">Unicode Character Stripper</a></p>
+                                <p>Some projects I have include a <a href="https://github.com/anthx/chat-log-viewer" rel="noopener">Chat Log Parser</a> for Viber and Facebook written in Python, this website, plus my <a href="https://www.acarrick.com/projects/unicode-character-stripper/"
+                                        rel="noopener">Unicode Character Stripper</a></p>
                                 <p><a href="https://www.github.com/anthx" target="_blank" rel="noopener">My coding projects on Github</a></p>
                             </div>
                         </div>
@@ -177,7 +178,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
     <script>
-        window.onload = function () {
+        window.onload = function() {
             $(function() {
                 $('a[href*=#]:not([href=#])').click(function() {
                     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -197,25 +198,25 @@
         //credit to http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
     </script>
     <script>
-    window.onload = function () {
-        $(function() {
-            $('#imageMode').click(function() {
-                if ($('.box').css('opacity') == '0') {
-                    $('.box').css({
-                        opacity: '1'
-                    });
-                    $('#imageMode').text("Hide Content");
-                } else { //opacity is 1, let's make it 0
-                    //$('.long').css({padding: '15% 0'});
-                    $('.box').css({
-                        opacity: '0'
-                    });
-                    $('#imageMode').text("Show Content");
+        window.onload = function() {
+            $(function() {
+                $('#imageMode').click(function() {
+                    if ($('.box').css('opacity') == '0') {
+                        $('.box').css({
+                            opacity: '1'
+                        });
+                        $('#imageMode').text("Hide Content");
+                    } else { //opacity is 1, let's make it 0
+                        //$('.long').css({padding: '15% 0'});
+                        $('.box').css({
+                            opacity: '0'
+                        });
+                        $('#imageMode').text("Show Content");
 
-                }
+                    }
+                });
             });
-        });
-    };
+        };
     </script>
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">

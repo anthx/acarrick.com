@@ -200,6 +200,10 @@ logo {
     background-image: url(logos/GitHub-Mark-120px-plus.png)
 }
 
+.projects-blog {
+    background-image: url(logos/AC-Logo.png)
+}
+
 a:hover {
     text-decoration: none;
 }
