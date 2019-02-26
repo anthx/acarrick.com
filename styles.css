@@ -250,7 +250,7 @@ a:hover {
     width: 60%;
 }
 
-@media screen and (max-height: 550px) {
+@media screen and (max-height: 650px) {
     .long {
         min-height: 100hv;
         height: auto;

@@ -1,41 +1,49 @@
 .synopsis {
-	float: none;
-	width: 100%;
-	text-align: center;
-	padding: 0;
-	font-size: inherit;
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    font-size: inherit;
 }
 
 heading {
-	font-size: 25pt;
-	}
+    font-size: 25pt;
+}
 
-.sub-section, .actual {
-	width: 100%;
+.sub-section,
+.actual {
+    width: 100%;
+}
+
+.long {
+    min-height: 100hv;
+    height: auto;
+    padding: 15% 0;
+    background-image: none;
 }
 
 .extra_long {
-	height: auto;
-	padding-bottom: 30pt;
-	padding-top: 30pt;
+    height: auto;
+    padding-bottom: 30pt;
+    padding-top: 30pt;
 }
 
 #socmed {
-	background-image: url(socmed_tablet.jpg);
+    background-image: url(socmed_tablet.jpg);
 }
 
 #contact {
-	background-image: url(contact_tablet.jpg);
+    background-image: url(contact_tablet.jpg);
 }
 
 #writings {
-	background-image: url(writting_tablet.jpg);
+    background-image: url(writting_tablet.jpg);
 }
 
 #photography {
-	background-image: url(photography_tablet.jpg);
+    background-image: url(photography_tablet.jpg);
 }
 
 #welcome {
-	background-image: url(welcome_tablet.jpg);
+    background-image: url(welcome_tablet.jpg);
 }
