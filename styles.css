@@ -142,11 +142,13 @@ section {
     padding: 0 15% 0 15%;
 }
 
-heading {
+h1 {
     font-size: 30pt;
     display: block;
     padding: 10pt 10pt 0pt 10pt;
     margin-bottom: 0;
+	margin-top: 0;
+	font-weight: 500;
 }
 
 
@@ -210,8 +212,9 @@ a:hover {
 
 .actual {}
 
-.actual heading {
+.actual h2 {
     font-size: 15pt;
+    font-weight: 500;
     /*margin-top: 10pt;*/
 }
 
