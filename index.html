@@ -22,7 +22,7 @@
             <a href="#tech" class="full">Technology Projects</a><a href="#tech" class="mobile">&#9996;</a>
         </div>
         <div class="menuCell">
-            <a href="#writings" class="full">Writings</a><a href="#writings" class="mobile">&#x270d;</a>
+            <a href="#writing" class="full">Writing</a><a href="#writing" class="mobile">&#x270d;</a>
         </div>
         <div class="menuCell">
             <a href="#photography" class="full">Photography</a><a href="#photography" class="mobile">&#128247;</a>
@@ -40,7 +40,7 @@
                 <div class="content">
                     <div class="box">
                         <div class="synopsis">
-                            <h1> Who am I?</h1>
+                            <h1>Who am I?</h1>
                             <p>I am Anthony Carrick - I am interested in technology, writing, and photography. </p>
                             <p>I have a Bachelor of Multimedia Design from the University of Queensland and recently completed a <a href="https://www.acarrick.com/projects/ive-graduated/" target="_blank" rel="noopener">Graduate Diploma in Information Technology</a>,
                                 also from the University of Queensland, to further my IT knowledge and career.
@@ -89,13 +89,14 @@
                 </div>
             </div>
         </section>
-        <section id="writings" class="medium long">
+        <section id="writing" class="medium long">
             <div class="inner">
                 <div class="content">
                     <div class="box">
                         <h1>Writing</h1>
                         <div class="synopsis">
-                            <p>I am interested in writing and language. To that end I have a couple of blogs - a kimchi and Korean food blog, and a technology blog. I also contribute to other places on the web.</p>
+                            <p>I am interested in writing and language. To that end I have a few personal blogs and I contribute to an leisure website. My personal blogs include a kimchi and Korean food blog, a technology blog, and a new blog where I write
+                                about non-technology projects or general thoughts in my life.</p>
                         </div>
                         <div class="actual">
                             <div class="sub-section">
@@ -103,6 +104,7 @@
                                 <logo class="blogger"></logo>
                                 <p><a href="http://www.kimchiadventures.com" target="_blank" rel="noopener">Adventures in Kimchi</a> &mdash; my Korean food blog. </p>
                                 <p><a href="http://www.atechwitness.blogspot.com" target="_blank" rel="noopener">A Tech Witness</a> &mdash; my personal technology blog. </p>
+                                <p><a href="http://www.acarrick.com/blog" target="_blank" rel="noopener">Thoughts and Musings</a> &mdash; my personal blog. </p>
                             </div>
                             <div class="sub-section">
                                 <h2>Weekend Notes</h2>
@@ -171,47 +173,21 @@
         </section>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
     <script>
-        window.onload = function() {
-            $(function() {
-                $('a[href*=#]:not([href=#])').click(function() {
-                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-
-                        var target = $(this.hash);
-                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                        if (target.length) {
-                            $('html,body').animate({
-                                scrollTop: target.offset().top
-                            }, 1000);
-                            return false;
-                        }
-                    }
+        document.getElementById('imageMode').onclick = function() {
+            let boxes = document.querySelectorAll('.box');
+            if (boxes[0].style.opacity == '0') {
+                boxes.forEach(element => {
+                    element.style.opacity = '1';
                 });
-            });
-        };
-        //credit to http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
-    </script>
-    <script>
-        window.onload = function() {
-            $(function() {
-                $('#imageMode').click(function() {
-                    if ($('.box').css('opacity') == '0') {
-                        $('.box').css({
-                            opacity: '1'
-                        });
-                        $('#imageMode').text("Hide Content");
-                    } else { //opacity is 1, let's make it 0
-                        //$('.long').css({padding: '15% 0'});
-                        $('.box').css({
-                            opacity: '0'
-                        });
-                        $('#imageMode').text("Show Content");
-
-                    }
+                document.getElementById('imageMode').textContent = "Hide Content"
+            } else {
+                boxes.forEach(element => {
+                    element.style.opacity = '0';
                 });
-            });
-        };
+                document.getElementById('imageMode').textContent = "Show Content"
+            }
+        }
     </script>
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">

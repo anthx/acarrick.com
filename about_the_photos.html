@@ -1,162 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="generator" content="Google Web Designer 1.0.0.924">
-		<meta name="viewport" content="width=device-width">
-		<title>Anthony Carrick</title>
-		<link rel="stylesheet" type="text/css" href="styles.css" />
-		<link rel="stylesheet" type="text/css" media="(max-width: 1270px)" href="tablet-styles.css" />
-		<link rel="stylesheet" type="text/css" media="(max-width: 900px)" href="phone-styles.css" />
-		<link rel="stylesheet" type="text/css" media="(max-width: 500px)" href="mobile-styles.css" />
-	</head>
-	<body>
-		<div id="menu">
-			<div class="menuCell">
-				<a href="#welcome" class="full">Welcome</a><a href="#welcome" class="mobile">&#x263a;</a>
-			</div>
-			<div class="menuCell">
-				<a href="#tech" class="full">Technology Projects</a><a href="#tech" class="mobile">&#9996;</a>
-			</div>
-			<div class="menuCell">
-				<a href="#writings" class="full">Writings</a><a href="#writings" class="mobile">&#x270d;</a>
-			</div>
-			<div class="menuCell">
-				<a href="#photography" class="full">Photography</a><a href="#photography" class="mobile">&#128247;</a>
-			</div>
-			<div class="menuCell">
-				<a href="#contact" class="full">Contact Me</a><a href="#contact" class="mobile">&#x2709;</a>
-			</div>
-		</div>
-		<a class="extrasLinks" id="imageMode">Hide Content</a>
-		<a class="extrasLinks" href="index.html" id="photosPageLink">Home page</a>
-		<div class="spacer"></div>
-		<div id="content">
-			<section id="welcome">
-				<div class="inner">
-					<div class="content">
-						<div class="box">
-							<div class="only-synopsis">
-								<h1>City of Lights - Laser show at Brisbane Festival</h1>
-								<p>I took this photo during Brisbane Festival 2012. It's of the Santos GLNG City of Lights, taken from the South Bank side of the river, facing the city.</p>
-								<p>It is a 1 second exposure at F8.0 - I have adjusted the contrast and blacks to deepen the blacks and reduce the ambient light. I like the silhouetted people at the front. (You can see it easier on <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/135725457@N03/22603342809/">Flickr</a>.) </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="tech">
-				<div class="inner">
-					<div class="content">
-						<div class="box">
-							<div class="only-synopsis">
-								<h1>Supertrees at Gardens By The Bay - Singapore</h1>
-								<p>At certain nights of the week Gardens By The Bay hosts a laser and light show featuring music and animated lights along the Supertrees.</p>
-								<p>The Supertrees are one of the landmarks and icons of Singaporean tourism at The Gardens - and actualy serve as air/exhaust vents for the maintenance areas below the Gardens.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="writings" class="long">
-				<div class="inner">
-					<div class="content">
-						<div class="box">
-							<div class="only-synopsis">
-								<h1>Pub in Wanaka, New Zealand</h1>
-								<p>On a holiday in New Zealand, I found this interesting looking pub venue. I liked the colours and the lighting against the dark night in the small-medium sized town of Wanaka.</p>
-								<p>It is a 15 second exposure at F8.0. I only needed to apply a slight noise reduction and sharpening filter.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="photography">
-				<div class="inner">
-					<div class="content">
-						<div class="box">
-							<div class="only-synopsis">
-								<h1>Brisbane City from Kangaroo Point Cliffs</h1>
-								<p>This was taken at Kangaroo Point along the Brisbane River, looking over towards Riverside. I took it while on a photo walk with a local photo meetup. </p>
-								<p>The others on the walk had already set up further along the outcrop so I had a tree in the frame. But I decided to make use of the tree anyway, and leave it in the frame. I hope it provides some extra visual interest.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="contact">
-				<div class="inner">
-					<div class="content">
-						<div class="box">
-							<div class="only-synopsis">
-								<h1>Great Ocean Road</h1>
-								<p>This photo of the Great Ocean Road in Victoria during a cloudy day. I liked the composition but the lighting was bland. So I was able to improve it by adding a vignette to focus the eye, split toning the highlights to a slight red, and I increased the blacks to reduce the underexposed pixels in the foreground.</p>
-								<p>Came here directly? <a href="http://www.acarrick.com">Go back to the Home Page</a> to see what I do. Like what you see? Contact me at: 
-									<script type="text/javascript">
-										var by = "@";
-										var domain = "acarrick";
-										document.write("<a href" + "=" + '\"' + "mailto:" + "anthony" + by + domain + "." + "com" + '\"' + ">");
-										document.write("anthony" + by + domain + "." + "com" + "</" + "a>.");
-									</script>
-									<noscript><img src="email.png" style="display: inline-block; vertical-align: middle;">.</noscript></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-		</div>
-		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script>
-			window.onload = function () {
-				$(function() {
-					$('a[href*=#]:not([href=#])').click(function() {
-						if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
-							var target = $(this.hash);
-							target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-							if (target.length) {
-								$('html,body').animate({
-									scrollTop : target.offset().top
-								}, 1000);
-								return false;
-							}
-						}
-					});
-				});
-			};
-			//credit to http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
-		</script>
-		<script>
-			window.onload = function () {
-			$(function() {
-				$('#imageMode').click(function() {
-					if ($('.box').css('opacity') == '0') {
-						$('.box').css({
-							opacity : '1'
-						});
-						$('#imageMode').text("Hide Content");
-					} else {//opacity is 1, let's make it 0
-						//$('.long').css({padding: '15% 0'});
-						$('.box').css({
-							opacity : '0'
-						});
-						$('#imageMode').text("Show Content");
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Google Web Designer 1.0.0.924">
+    <meta name="viewport" content="width=device-width">
+    <title>Anthony Carrick</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" media="(max-width: 1270px)" href="tablet-styles.css" />
+    <link rel="stylesheet" type="text/css" media="(max-width: 900px)" href="phone-styles.css" />
+    <link rel="stylesheet" type="text/css" media="(max-width: 500px)" href="mobile-styles.css" />
+</head>
 
-					}
-				});
-			});
-		};
-		</script>
-		<!-- Start of StatCounter Code for Default Guide -->
-		<script type="text/javascript">
-			var sc_project = 10693729;
-			var sc_invisible = 1;
-			var sc_security = "ce4c3bbe";
-			var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
-			document.write("<sc" + "ript type='text/javascript' src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");
-		</script>
-		<noscript>
+<body>
+    <div id="menu">
+        <div class="menuCell">
+            <a href="#welcome" class="full">Welcome</a><a href="#welcome" class="mobile">&#x263a;</a>
+        </div>
+        <div class="menuCell">
+            <a href="#tech" class="full">Technology Projects</a><a href="#tech" class="mobile">&#9996;</a>
+        </div>
+        <div class="menuCell">
+            <a href="#writing" class="full">Writings</a><a href="#writing" class="mobile">&#x270d;</a>
+        </div>
+        <div class="menuCell">
+            <a href="#photography" class="full">Photography</a><a href="#photography" class="mobile">&#128247;</a>
+        </div>
+        <div class="menuCell">
+            <a href="#contact" class="full">Contact Me</a><a href="#contact" class="mobile">&#x2709;</a>
+        </div>
+    </div>
+    <a class="extrasLinks" id="imageMode">Hide Content</a>
+    <a class="extrasLinks" href="index.html" id="photosPageLink">Home page</a>
+    <div class="spacer"></div>
+    <div id="content">
+        <section id="welcome">
+            <div class="inner">
+                <div class="content">
+                    <div class="box">
+                        <div class="only-synopsis">
+                            <h1>City of Lights - Laser show at Brisbane Festival</h1>
+                            <p>I took this photo during Brisbane Festival 2012. It's of the Santos GLNG City of Lights, taken from the South Bank side of the river, facing the city.</p>
+                            <p>It is a 1 second exposure at F8.0 - I have adjusted the contrast and blacks to deepen the blacks and reduce the ambient light. I like the silhouetted people at the front. (You can see it easier on <a target="_blank" rel="noopener"
+                                    href="https://www.flickr.com/photos/135725457@N03/22603342809/">Flickr</a>.) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tech">
+            <div class="inner">
+                <div class="content">
+                    <div class="box">
+                        <div class="only-synopsis">
+                            <h1>Supertrees at Gardens By The Bay - Singapore</h1>
+                            <p>At certain nights of the week Gardens By The Bay hosts a laser and light show featuring music and animated lights along the Supertrees.</p>
+                            <p>The Supertrees are one of the landmarks and icons of Singaporean tourism at The Gardens - and actualy serve as air/exhaust vents for the maintenance areas below the Gardens.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="writing" class="long">
+            <div class="inner">
+                <div class="content">
+                    <div class="box">
+                        <div class="only-synopsis">
+                            <h1>Pub in Wanaka, New Zealand</h1>
+                            <p>On a holiday in New Zealand, I found this interesting looking pub venue. I liked the colours and the lighting against the dark night in the small-medium sized town of Wanaka.</p>
+                            <p>It is a 15 second exposure at F8.0. I only needed to apply a slight noise reduction and sharpening filter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="photography">
+            <div class="inner">
+                <div class="content">
+                    <div class="box">
+                        <div class="only-synopsis">
+                            <h1>Brisbane City from Kangaroo Point Cliffs</h1>
+                            <p>This was taken at Kangaroo Point along the Brisbane River, looking over towards Riverside. I took it while on a photo walk with a local photo meetup. </p>
+                            <p>The others on the walk had already set up further along the outcrop so I had a tree in the frame. But I decided to make use of the tree anyway, and leave it in the frame. I hope it provides some extra visual interest.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="inner">
+                <div class="content">
+                    <div class="box">
+                        <div class="only-synopsis">
+                            <h1>Great Ocean Road</h1>
+                            <p>This photo of the Great Ocean Road in Victoria during a cloudy day. I liked the composition but the lighting was bland. So I was able to improve it by adding a vignette to focus the eye, split toning the highlights to a slight
+                                red, and I increased the blacks to reduce the underexposed pixels in the foreground.</p>
+                            <p>Came here directly? <a href="http://www.acarrick.com">Go back to the Home Page</a> to see what I do. Like what you see? Contact me at:
+                                <script type="text/javascript">
+                                    var by = "@";
+                                    var domain = "acarrick";
+                                    document.write("<a href" + "=" + '\"' + "mailto:" + "anthony" + by + domain + "." + "com" + '\"' + ">");
+                                    document.write("anthony" + by + domain + "." + "com" + "</" + "a>.");
+                                </script>
+                                <noscript><img src="email.png" style="display: inline-block; vertical-align: middle;">.</noscript></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    <script>
+        document.getElementById('imageMode').onclick = function() {
+            let boxes = document.querySelectorAll('.box');
+            if (boxes[0].style.opacity == '0') {
+                boxes.forEach(element => {
+                    element.style.opacity = '1';
+                });
+                document.getElementById('imageMode').textContent = "Hide Content"
+            } else {
+                boxes.forEach(element => {
+                    element.style.opacity = '0';
+                });
+                document.getElementById('imageMode').textContent = "Show Content"
+            }
+        }
+    </script>
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+        var sc_project = 10693729;
+        var sc_invisible = 1;
+        var sc_security = "ce4c3bbe";
+        var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <noscript>
 			<div class="statcounter">
 				<a title="website
 				statistics" href="http://statcounter.com/"
@@ -165,6 +143,7 @@
 				alt="website statistics"></a>
 			</div>
 		</noscript>
-		<!-- End of StatCounter Code for Default Guide -->
-	</body>
+    <!-- End of StatCounter Code for Default Guide -->
+</body>
+
 </html>

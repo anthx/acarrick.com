@@ -107,7 +107,7 @@ section {
     background-image: url(socmed.jpg);
 }
 
-#writings {
+#writing {
     background-color: #d3c77a;
     background-image: url(writting.jpg);
 }
@@ -147,18 +147,9 @@ h1 {
     display: block;
     padding: 10pt 10pt 0pt 10pt;
     margin-bottom: 0;
-	margin-top: 0;
-	font-weight: 500;
+    margin-top: 0;
+    font-weight: 500;
 }
-
-
-/*
- #socmed .synopsis, #socmed .actual, #socmed .content > heading {
-
- background-color: rgba(255,255,255,0.7);
- box-shadow: 0 0 10px rgba(255,255,255,0.7);
- z-index: 1;
- }*/
 
 logo {
     width: 100%;
@@ -210,8 +201,6 @@ a:hover {
     text-decoration: none;
 }
 
-.actual {}
-
 .actual h2 {
     font-size: 15pt;
     font-weight: 500;
@@ -248,7 +237,6 @@ a:hover {
 }
 
 .actual {
-    /*float: right;*/
     display: inline-block;
     width: 60%;
 }
