@@ -1,75 +1,80 @@
 .synopsis {
-	float: none;
-	width: 100%;
-	text-align: center;
-	font-size: inherit;
+    float: none;
+    width: 100%;
+    text-align: center;
+    font-size: inherit;
 }
 
-heading {
-	font-size: 18pt;
-	font-weight: bold;
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
 }
 
-.actual heading {
-	font-weight: normal;
-}	
-	
+.actual h1 {
+    font-weight: normal;
+}
+
 #menu a {
-	font-size: x-large;
-	padding: 12px;
-	color: black;
-	width: 100%;
+    font-size: x-large;
+    padding: 12px;
+    color: black;
+    width: 100%;
 }
 
 #menu {
-	opacity: 1;
+    opacity: 1;
 }
 
 #menu .mobile {
-	display: inline-block;
+    display: inline-block;
 }
 
 #menu .full {
-	display: none;
+    display: none;
 }
 
 .spacer {
-	height: 45px;
-	width: 100%;
+    height: 45px;
+    width: 100%;
 }
 
 .content {
-	display: table-cell;
-	}
+    display: table-cell;
+}
 
 .box[style] {
-	opacity: 1 !important;
+    opacity: 1 !important;
 }
 
-.sub-section, .actual {
-	/*float:none;*/
-	width: 100%;
-}
-
-section {
-	/*height: 100vh;*/
+.sub-section,
+.actual {
+    /*float:none;*/
+    width: 100%;
 }
 
 section {
-	/*min-height: 100%;*/
-	height: auto;
-	padding: 15% 0;
-	width: auto;
+    /*height: 100vh;*/
+}
+
+section {
+    /*min-height: 100%;*/
+    height: auto;
+    padding: 15% 0;
+    width: auto;
 }
 
 .extrasLinks {
-	display: none;
+    display: none;
 }
 
-#welcome, #tech, #contact, #photography, #writings {
-	background-image: none;
+#welcome,
+#tech,
+#contact,
+#photography,
+#writing {
+    background-image: none;
 }
 
 body {
-	 	padding-top: 00px;
-	 }
+    padding-top: 00px;
+}

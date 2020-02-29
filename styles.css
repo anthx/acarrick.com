@@ -204,18 +204,11 @@ a:hover {
 .actual h2 {
     font-size: 15pt;
     font-weight: 500;
-    /*margin-top: 10pt;*/
-}
-
-.only-synopsis heading {
-    font-size: 22pt;
-    /*margin-top: 10pt;*/
 }
 
 .synopsis {
     width: 40%;
     text-align: left;
-    /*padding: 0 15pt 0 15pt;*/
     display: inline-block;
     float: left;
     font-size: larger;
